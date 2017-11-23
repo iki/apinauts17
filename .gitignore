@@ -1,5 +1,31 @@
-.db
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+/dist
+
+# envs
 .env
-node_modules
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# logs
+*.log*
+
+# tools
+..*
+.db/
+.idea/
+.vscode/
+.DS_Store/
+.module-cache/
+.sass-cache/
 components/routes/_*
-.sass-cache/*
