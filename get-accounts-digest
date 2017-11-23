@@ -1,0 +1,10 @@
+#!/bin/sh
+
+. ./.init-auth
+
+curl -X GET \
+  -H "web-api-key: $apikey" \
+  -H "authorization: Bearer $token" \
+  "$apiroot/v3/netbanking/my/accounts/digest/?${1:+type=$1&}${2:+sort=$2&}${3:+order=$3&}${4:+size=$4&}${5:+page=$5&}" \
+| js-beautify -s 2 -w 111 \
+> "$0${1:+-$1}${2:+-$2}${3:+-$3}${4:+-$4}${5:+-$5}.json"

@@ -1,0 +1,9 @@
+#!/bin/sh
+
+. ./.init-public
+
+curl -X GET \
+  -H "web-api-key: $apikey" \
+  $apiroot/v2/transparentAccounts \
+| js-beautify -s 2 -w 111 \
+> "$0.json"
