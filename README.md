@@ -2,19 +2,19 @@
 
 ## Docs
 
-https://developers.csas.cz/
-https://developers.csas.cz/docs/netbanking-v3
-https://developers.csas.cz/docs/corporate-v1
-https://developers.csas.cz/docs/exchange-rates
-https://developers.csas.cz/docs/places-v2
-https://developers.csas.cz/docs/transparent-account
-https://developers.csas.cz/docs/hypocalc
+- https://developers.csas.cz/
+- https://developers.csas.cz/docs/netbanking-v3
+- https://developers.csas.cz/docs/corporate-v1
+- https://developers.csas.cz/docs/exchange-rates
+- https://developers.csas.cz/docs/places-v2
+- https://developers.csas.cz/docs/transparent-account
+- https://developers.csas.cz/docs/hypocalc
 
 ## SDK
 
-https://github.com/Ceskasporitelna?language=typescript
-https://github.com/Ceskasporitelna/cs-core-sdk-js
-https://github.com/Ceskasporitelna/cs-core-sdk-js/blob/master/docs/webapi-howto.md
+- https://github.com/Ceskasporitelna?language=typescript
+- https://github.com/Ceskasporitelna/cs-core-sdk-js
+- https://github.com/Ceskasporitelna/cs-core-sdk-js/blob/master/docs/webapi-howto.md
 
 ## API
 
@@ -54,4 +54,3 @@ https://github.com/Ceskasporitelna/cs-core-sdk-js/blob/master/docs/webapi-howto.
 
 - web-api-key:
   35bd5a35-5909-460e-b3c2-20073d9c4c2e
-
