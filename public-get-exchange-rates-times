@@ -1,9 +1,0 @@
-#!/bin/sh
-
-. ./.init-public
-
-curl -X GET \
-  -H "web-api-key: $apikey" \
-  "$apiroot/v1/rates/exchangerates/times?${1:+date=$1&}" \
-| js-beautify -s 2 -w 111 \
-> "$0${1:+-$1}${2:+-$2}${3:+-$3}${4:+-$4}.json"
