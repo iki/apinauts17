@@ -13,8 +13,9 @@
 ## SDK
 
 - https://github.com/Ceskasporitelna?language=typescript
-- https://github.com/Ceskasporitelna/cs-core-sdk-js
-- https://github.com/Ceskasporitelna/cs-core-sdk-js/blob/master/docs/webapi-howto.md
+- https://github.com/Ceskasporitelna/cs-netbanking-sdk-js
+- https://github.com/Ceskasporitelna/cs-netbanking-sdk-js/blob/master/docs/netbanking.md
+- https://github.com/Ceskasporitelna/morfina-js
 
 ## API
 
