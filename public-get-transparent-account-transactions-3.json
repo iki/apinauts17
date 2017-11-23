@@ -1,0 +1,59 @@
+{
+  "pageNumber": 0,
+  "pageSize": 3,
+  "pageCount": 20,
+  "nextPage": 1,
+  "recordCount": 60,
+  "transactions": [{
+    "amount": {
+      "value": -4.0,
+      "precision": 0
+    },
+    "dueDate": "2015-09-30T00:00:00",
+    "processingDate": "2015-09-30T00:00:00",
+    "sender": {
+      "accountNumber": "",
+      "iban": "CZ64 0800 0000 0000 0619 6112"
+    },
+    "receiver": {
+      "accountNumber": "000000-0006196112",
+      "bankCode": "0800",
+      "iban": "CZ64 0800 0000 0000 0619 6112"
+    },
+    "typeDescription": "POPLATEK KREDIT TRANS         Cumulated charge of 2*2 CZK"
+  }, {
+    "amount": {
+      "value": -100.0,
+      "precision": 0
+    },
+    "dueDate": "2015-09-17T00:00:00",
+    "processingDate": "2015-09-17T00:00:00",
+    "sender": {
+      "accountNumber": "",
+      "iban": "CZ64 0800 0000 0000 0619 6112"
+    },
+    "receiver": {
+      "accountNumber": "000000-0006196112",
+      "bankCode": "0800",
+      "iban": "CZ64 0800 0000 0000 0619 6112"
+    },
+    "typeDescription": "POPLATKY FUNDS TRANSFER       Popl.došlá platba - SEPA převod"
+  }, {
+    "amount": {
+      "value": 1320.65,
+      "precision": 0
+    },
+    "dueDate": "2015-09-17T00:00:00",
+    "processingDate": "2015-09-17T00:00:00",
+    "sender": {
+      "accountNumber": "",
+      "iban": "CZ64 0800 0000 0000 0619 6112"
+    },
+    "receiver": {
+      "accountNumber": "000000-0006196112",
+      "bankCode": "0800",
+      "iban": "CZ64 0800 0000 0000 0619 6112"
+    },
+    "typeDescription": "KREDIT. TRANS.FUNDS TRANS     DOŠLÁ PLATBA V/P KLIENTA CS"
+  }]
+}

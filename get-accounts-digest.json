@@ -1,0 +1,18 @@
+{
+  "pageNumber": 0,
+  "pageCount": 1,
+  "pageSize": 2,
+  "accounts": [{
+    "number": "2757413113",
+    "bankCode": "0800",
+    "countryCode": "CZ",
+    "cz-iban": "CZ2708000000002757413113",
+    "cz-bic": "GIBACZPX"
+  }, {
+    "number": "4865869379",
+    "bankCode": "0800",
+    "countryCode": "CZ",
+    "cz-iban": "CZ7808000000004865869379",
+    "cz-bic": "GIBACZPX"
+  }]
+}
