@@ -1,0 +1,35 @@
+#!/bin/sh
+
+. ./.init-auth
+
+curl -X GET \
+  -H "web-api-key: $apikey" \
+  -H "authorization: Bearer $token" \
+  $apiroot/v3/netbanking/my/orders/payments/domestic \
+  -H 'content-type: application/json' \
+  -d '{
+  "senderName": "PayBot",
+
+  "sender": {
+    "countryCode": "CZ",
+    "iban": "CZ2708000000002757413113",
+    "bic": "GIBACZPX"
+  },
+
+  "receiverName": "Test remote",
+
+  "receiver": {
+    "number": "2427559339",
+    "bankCode": "0800",
+    "countryCode": "CZ",
+  },
+
+  "amount": {
+    "value": 111,
+    "precision": 0,
+    "currency": "CZK"
+  },
+
+}' \
+| js-beautify -s 2 -w 111 \
+> "../data/$0.json"
